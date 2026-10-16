@@ -1,0 +1,10 @@
+# RESEARCH PROJECT SELECTION AND SCHEDULING DATA
+# Format: PROJECT_ID|NAME|PROFIT_REVENUE|EXEC_TIME|DEADLINE|DEPENDENCIES(comma_separated)
+PRJ01|Indic_Corpus_Parser|40|3|5|NONE
+PRJ02|Sanskrit_Phonetic_Aligner|60|4|8|PRJ01
+PRJ03|Suffix_Indexer_Engine|80|5|9|PRJ01
+PRJ04|MaxFlow_Citation_Analyzer|-30|2|6|PRJ03
+PRJ05|Quantum_Simulation_Kernel|-50|6|12|NONE
+PRJ06|Polynomial_Verifier_Suite|70|3|7|PRJ04,PRJ05
+PRJ07|MillerRabin_Crypto_Core|50|2|4|NONE
+PRJ08|Parallel_PrefixScan_Engine|90|4|10|PRJ03,PRJ07
